@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src https://api.github.com https://gist.githubusercontent.com https://*.trycloudflare.com; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14120f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="OptChat">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+<title>OptChat</title>
+</head>
+<body>
+<main>
+<h1>OptChat Remote</h1>
+<div id="setup" hidden>
+<p class="good">This phone now has a permanent link to OptChat.</p>
+<p>Add this page to your Home Screen now:</p>
+<ol><li>Tap Share.</li><li>Tap Add to Home Screen.</li><li>Tap Add.</li></ol>
+<p class="muted">The icon keeps working after every PC restart. You do not need a code again.</p>
+</div>
+<p id="status" role="status">Finding your PC.</p>
+<button id="go" type="button">Open OptChat</button>
+<p id="none" class="muted" hidden>This device has no permanent link. On the PC, open OptChat Remote and pair this phone.</p>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
